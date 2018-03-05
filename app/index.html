@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>自动更新demo</title>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+  <div>自动更新demo</div>
+
+  <div id="messages"></div>
+
+    <script>
+      const {ipcRenderer} = require('electron');
+
+      ipcRenderer.on('message', function(event, text) {
+
+        var container = document.getElementById('messages'),
+          message = document.createElement('div');
+
+        message.innerHTML = text;
+        container.appendChild(message);
+      })
+    </script>
+  </body>
+</html>

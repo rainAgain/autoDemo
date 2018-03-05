@@ -1,0 +1,25 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.github.rainagain.autoDemo
+productName: testauto
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  menuCategory: true
+  installerIcon: ./res/icon.ico
+  uninstallerIcon: ./res/icon.ico
+asar: true
+asarUnpack:
+  - app/test
+  - gulpfile.js
+  - project
+publish:
+  - provider: github
+    owner: rainagain
+    repo: autoDemo
+electronVersion: 1.8.2

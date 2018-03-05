@@ -1,0 +1,9 @@
+version: 1.0.0
+files:
+  - url: auto-demo-setup-1.0.0.exe
+    sha512: cAQV+JDcQDUciF4NSQjs60dLrvsc1MA0SwrX386Nt2/1MEQYUXZFD9D7m7EpoxySi6jd3acHpR90HgGT03SyUQ==
+    size: 38201853
+path: auto-demo-setup-1.0.0.exe
+sha512: cAQV+JDcQDUciF4NSQjs60dLrvsc1MA0SwrX386Nt2/1MEQYUXZFD9D7m7EpoxySi6jd3acHpR90HgGT03SyUQ==
+sha2: b66c3b7e6fa3359aeedb8b47b089a5112317e333fa6ee23a5235331957122e25
+releaseDate: '2018-03-05T09:57:28.612Z'
